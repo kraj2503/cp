@@ -1,0 +1,1 @@
+{"name":"Local: binary","url":"c:\\c++\\striver\\linear search\\binary.c","tests":[{"id":1621693064195,"input":"6\n001111110\n00110011\n000\n1111\n101010101\n101111111111","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\c++\\striver\\linear search\\binary.c","group":"local","local":true}

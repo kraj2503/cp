@@ -1,0 +1,1 @@
+{"name":"Local: sumofsubmatrix","url":"c:\\c++\\sumofsubmatrix.c","tests":[{"id":1621365144942,"input":"1\n3 3\n1 1 1 1 1 1 1 1 1\n1 1 3 3","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\c++\\sumofsubmatrix.c","group":"local","local":true}
