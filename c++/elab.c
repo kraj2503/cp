@@ -10,4 +10,4 @@ int main(){
         printf("%d",a[i][0]);
     }
 
-return 0;}jjjjj
+return 0;}
