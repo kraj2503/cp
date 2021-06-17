@@ -1,24 +1,20 @@
 #include <stdio.h>
 int main()
 {
-
     int t, i;
-    scanf("%d", t);
+    scanf(" %d", &t);
     while (t--)
     {
+        int n;
+        scanf("%d",&n);
         char string;
-        int count1 = 0;
-        scanf("%c", &string);
-        while (string > 0)
-        {
-
-            // If current bit is 1
-            if (string & 1)
-            {
-                count1++;
-            }
+        int sum=0;
+        for(i=0;i<n;i++){
+         scanf("%c",&string); 
+         sum+=string;
         }
-            printf("%d", count1);
+        sum+=1;
+        printf("%d\n",sum);
     }
     return 0;
 }
