@@ -1,20 +1,30 @@
-#include<iostream>
-using namespace std;
-int main(){
+#include <cmath>
+#include <cstdio>
+#include <vector>
+#include <iostream>
+#include <algorithm>
+    using namespace std;
 
-    int t;
-    cin>>t;
-    int up=0,down=0;
-    while(t--){
-        char i;
-        cin>>i;
-        if(i=='U'){
-            up++;
-        }
-        else if(i=='D'){
-            down++;
+int main()
+{
+    int l;
+    string str;
+    cin >> l >> str;
+    int height = 0;
+    int count = 0;
+    for (int i = 0; i < l; i++)
+    {
+        if (str[i] == 'U')
+            height++;
+        else
+        {
+            if (height == 0)
+                count++;
+            height--;
         }
     }
-    cout<<up<<" "<<down;
+    if (height < 0)
+        count--;
+    cout << count << endl;
 
-return 0;}
+    return 0;}
