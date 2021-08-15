@@ -1,0 +1,1 @@
+{"name":"Local: ceilingsum","url":"c:\\Users\\kshit\\Documents\\GitHub\\cp\\c++\\codechef\\ceilingsum.cpp","tests":[{"id":1627216516174,"input":"4\n2 2\n1 11\n13 6\n13 1","output":"-5"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\Users\\kshit\\Documents\\GitHub\\cp\\c++\\codechef\\ceilingsum.cpp","group":"local","local":true}
