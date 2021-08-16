@@ -6,27 +6,27 @@ int main()
     ios_base::sync_with_stdio(false);
     cin.tie(NULL);
     ll t;
-    int p1, p2, p1_max_lead = -1, p2_max_lead = -1, max_of1 = -1, max_of2 = -1;
+    int  lead = -1, winner;
     cin >> t;
+    int round_lead,p1=0,p2=0;
     while (t--)
-    {
-        cin >> p1 >> p2;
-        if (p1 > p2)
+    {int a , b;
+        cin>>a>>b;
+        p1+=a;
+        p2+=b;
+        round_lead = abs(p1 - p2);
+        if ((p1 > p2) && (lead < round_lead))
         {
-            p1_max_lead = p1 - p2;
-            max_of1 = max(max_of1, p1_max_lead);
+            winner = 1;
+            lead = round_lead;
         }
-        else
+        else if ((p2-p1) && (lead < round_lead))
         {
-            p2_max_lead = p2 - p1;
-            max_of2 = max(max_of2, p2_max_lead);
+            winner = 2;
+            lead = round_lead;
         }
     }
-    if (max_of1 > max_of2){
-        cout<<"1 "<<max_of1;
-    }
-    else {
-        cout<<"2"<<max_of2;
-    }
-        return 0;
+    cout<<winner<<" "<<lead;
+
+    return 0;
 }
