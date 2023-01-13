@@ -21,6 +21,7 @@ class Solution {
         long long lcm=(A*B)/gcd(A,B);
         v.push_back(lcm);
         v.push_back(gcd(A,B));
+      
         return v;
     }
 };
