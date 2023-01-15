@@ -12,6 +12,7 @@ for(int i = 0 ; i <a;i++)cout<<q[i];
 // for(auto i:q)cout<<q[i];
 cout<<endl;
 int pair=0;
+
 for(int i = 0 ; i <a-1;i++)
     for(int j=i+1;j<a;j++){
         double d=2*q[j];
