@@ -8,6 +8,7 @@ vector<int> twoSum(vector<int>& nums, int target) {
    	 if (mp.find(target - nums[i]) != mp.end()) {
 
    		 res.emplace_back(i);
+		 
    		 res.emplace_back(mp[target - nums[i]]);
    		 return res;
    	 }
