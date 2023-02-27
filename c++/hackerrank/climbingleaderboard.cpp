@@ -14,6 +14,7 @@ int main()
         cin >> temp;
         rank.push_back(temp);
     }
+    
     cin >> n;
     int a[n];
     for (int i = 0; i < n; i++)
